@@ -71,6 +71,13 @@ require('lazy').setup({
     end,
   },
 
+  -- ── Markdown ──────────────────────────────────────────────────────────────
+  {
+    'MeanderingProgrammer/render-markdown.nvim',
+    ft = { 'markdown' },
+    opts = {},
+  },
+
   -- ── Completion ────────────────────────────────────────────────────────────
   {
     'hrsh7th/nvim-cmp',
